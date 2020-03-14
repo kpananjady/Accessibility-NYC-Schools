@@ -18,7 +18,7 @@ __
 
 Analysis 1: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Accessibility%20in%20NYC%20schools.ipynb
 
-I open up the file, use regex to extract the rating, geolocate the schools with Google's API, disaggregate the data by borough and look at the descripive statistics associated with each corresponding histogram. 
+I open up the file, use regex to extract the rating, geolocate the schools with Google's API, save the coordinates (https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/School-NYC-Accessibility-geolocated.csv) disaggregate the data by borough and look at the descripive statistics associated with each corresponding histogram. 
 
 NOTE on the analysis: At the moment, this analysis treats schools rated 0 (not accessible) and schools rated 0+ (at least one entrance and a small area ae accessible) both as 0. (See the data dictionary for the difference: https://www.schools.nyc.gov/school-life/school-environment/building-accessibility) In this dataset, 0 and 0+ doesn't actually matter as there aren't any 0 ratings within. 
 
