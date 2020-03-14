@@ -4,7 +4,7 @@ So far, I see a story here on Queens' superior accessibility. There is also a su
 
 Roughly one in four schools has a rating of 10 across the city, signifying highly accessible spaces. In Queens, over a third of schools have a rating of 10. Queens also has a higher median rating than other boroughs! What is driving this trend?
 
-44 percent of schools in this dataset are classified as "fully accessible," which includes ratings 9 and 10. In 2018, Advocates for Children of NY found that it was one in five. (https://www.advocatesforchildren.org/access) What happened here? 
+44 percent of schools in this dataset are classified as "fully accessible," which includes ratings 9 and 10. In 2018, Advocates for Children of NY found that was one in five schools met this standard. (https://www.advocatesforchildren.org/access) What happened here? 
 
 __
 
