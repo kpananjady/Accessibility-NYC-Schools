@@ -10,4 +10,4 @@ I open up the file, use regex to extract the rating, geolocate the schools with 
 
 NOTE on the analysis: At the moment, this analysis treats schools rated 0 (not accessible) and schools rated 0+ (at least one entrance and a small area ae accessible) both as 0. I'll refine that going forward. Source: See the data dictionary for the difference: https://www.schools.nyc.gov/school-life/school-environment/building-accessibility
 
-I will add a QJIS map of schools and their rating across the city soon to see if there is a pattern there. This will also allow me to check my data against demographic indicators in the census to see if there are patterns there as well.
+I have added a QJIS map of schools and their ratings across the city. It clearly illustrates how Queens is doing better. Mapping will also allow me to check my data against demographic indicators in the census to see if there are patterns that account for ratings. If you have an idea of what I should check accessiility against on a neighborhood level to test correlation, please let me know!
