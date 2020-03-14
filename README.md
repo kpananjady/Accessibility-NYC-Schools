@@ -1,6 +1,7 @@
 # Accessibility-NYC-Schools
 
-So far, I see a story here about why Queens 
+So far, I see a story here Queens' superior accessibility. 
+
 __
 
 Data source 1: New York Department of Education
