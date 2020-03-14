@@ -17,7 +17,9 @@ NOTE on the analysis: At the moment, this analysis treats schools rated 0 (not a
 
 __
 
-Data source 2: New York City shapefiles from NYC Open Data https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas-NTA-/cpf4-rkhq; CRS projection W84:4326
+Data source 2: New York City shapefiles from NYC Open Data https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas-NTA-/cpf4-rkhq 
+
+NOTE on the data: Use CRS projection W84:4326 for the coordinate system when mapping!
 
 __
 
