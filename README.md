@@ -50,9 +50,12 @@ __
 
 Data source 2: I got 'Age by Sex by Ambulatory Disability' estimates from Factfinder. (Source: https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml, table: B18105 "Age by Sex by Ambulatory Disability", 2017 5-year estimates) My data is at the level of census tracts at the moment.
 
+NOTE on this data: I have some questions about margins of error and estimates in this analysis!
+
 __
 
-Analysis 4: 
+Analysis 4: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/NYC%20Ambulatory%20Data.ipynb
+
 I combined male and female estimates by census tract, wrangled the data for a join and finally joined everything in a QJIS analysis. (ambulatory-disability)
 
 Major caveat: The maps don't represent the margins of error that accompany estimates of males and females between 5-17 with ambulatory disabilities. Use with caution — the idea with this map is to guide reporting and see where students might be concentrated, as opposed to presenting a perfect picture of where students are. 
