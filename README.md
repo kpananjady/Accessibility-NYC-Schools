@@ -20,7 +20,9 @@ NOTE on the data: The above data was last updated in February 2020. It contains 
 
 __ __ __
 
-Analysis 1: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Accessibility%20in%20NYC%20schools.ipynb
+Analysis 1: FINDING A GEOGRAPHIC TREND
+
+https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Accessibility%20in%20NYC%20schools.ipynb
 
 I open up the file, use regex to extract the rating, geolocate the schools with Google's API, save the coordinates (https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/School-NYC-Accessibility-geolocated.csv), disaggregate the data by borough and look at the descripive statistics associated with each corresponding histogram. 
 
@@ -34,7 +36,9 @@ NOTE on the data: Use CRS projection W84:4326 for the coordinate system when map
 
 __ __ __
 
-Analysis 2: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/ratings-city-analysis.qgz; see results in Screen Shot 2020-03-13 at 9.47.22 PM.png at https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-13%20at%209.47.22%20PM.png
+Analysis 2: MAPPING THE TREND
+
+https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/ratings-city-analysis.qgz; see results in Screen Shot 2020-03-13 at 9.47.22 PM.png at https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-13%20at%209.47.22%20PM.png
 
 I have added a QJIS map of schools and their ratings across the city using my geolocated data and shapefiles. It clearly illustrates how Queens is doing better. Mapping will also allow me to check my data against demographic indicators in the census to see if there are patterns that account for ratings. 
 
@@ -42,7 +46,9 @@ NOTE on the analysis: If you have an idea of what I should check accessibility a
 
 __ __ __
 
-Analysis 3: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Colocation.ipynb
+Analysis 3: COLOCATION
+
+https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Colocation.ipynb
 
 According to this analysis, schools that colocate do not have different ratings. Not all schools that colocate are fully accessible, so we should expect to see some variation in ratings if schools are on different floors in the same building. I don't know why we don't see any.
 
@@ -58,7 +64,9 @@ NOTE on this data: I have some questions about margins of error and estimates in
 
 __ __ __
 
-Analysis 4: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/NYC%20Ambulatory%20Data.ipynb; result here: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-24%20at%201.26.01%20PM.png
+Analysis 4: WHERE ARE THE KIDS
+
+https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/NYC%20Ambulatory%20Data.ipynb; result here: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-24%20at%201.26.01%20PM.png
 
 I combined male and female estimates by census tract, wrangled the data for a join and finally joined everything in a QJIS analysis. There are a total of around 9,000 such kids in New York City. 
 
