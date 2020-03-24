@@ -6,7 +6,7 @@ Roughly one in four schools has a rating of 10 across the city, signifying highl
 
 44 percent of schools in this dataset are classified as "fully accessible," which includes ratings 9 and 10. In 2018, Advocates for Children of NY found that was one in five schools met this standard. (https://www.advocatesforchildren.org/access) What happened here? 
 
-I also have some questions about the quality of this data — why are there only 1200 schools? Why do not two collocated schools have different ratings? 
+I also have some questions about the quality of this data — why are there only 1200 schools? Why do no two collocated schools have different ratings? 
 
 This Github repository tries to assess the need for accessibility in the city — around 9,000 students between 5-17 have ambulatory disabilities in the city, as per 2017 American Community Survey data. 
 
