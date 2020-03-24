@@ -40,7 +40,7 @@ I have added a QJIS map of schools and their ratings across the city using my ge
 
 NOTE on the analysis: If you have an idea of what I should check accessibility against on a neighborhood level to test correlation, please let me know! I'be also broken up this data by school district, since it seems that accessibility funding comes through the Department of Education and might flow through districts. See: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-14%20at%206.01.53%20PM.png
 
-__
+__ __ __
 
 Analysis 3: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Colocation.ipynb
 
