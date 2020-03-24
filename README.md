@@ -6,6 +6,10 @@ Roughly one in four schools has a rating of 10 across the city, signifying highl
 
 44 percent of schools in this dataset are classified as "fully accessible," which includes ratings 9 and 10. In 2018, Advocates for Children of NY found that was one in five schools met this standard. (https://www.advocatesforchildren.org/access) What happened here? 
 
+I also have some questions about the quality of this data — why are there only 1200 schools? Why do not two collocated schools have different ratings? 
+
+This Github repository tries to assess the need for accessibility in the city — around 9,000 students between 5-17 have ambulatory disabilities in the city, as per 2017 American Community Survey data. 
+
 __
 
 Data source 1: New York Department of Education
@@ -34,7 +38,7 @@ Analysis 2: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/
 
 I have added a QJIS map of schools and their ratings across the city using my geolocated data and shapefiles. It clearly illustrates how Queens is doing better. Mapping will also allow me to check my data against demographic indicators in the census to see if there are patterns that account for ratings. 
 
-NOTE on the analysis: If you have an idea of what I should check accessibility against on a neighborhood level to test correlation, please let me know!
+NOTE on the analysis: If you have an idea of what I should check accessibility against on a neighborhood level to test correlation, please let me know! I'be also broken up this data by school district, since it seems that accessibility funding comes through the Department of Education and might flow through districts. See: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-14%20at%206.01.53%20PM.png
 
 __
 
