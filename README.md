@@ -35,3 +35,26 @@ Analysis 2: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/
 I have added a QJIS map of schools and their ratings across the city using my geolocated data and shapefiles. It clearly illustrates how Queens is doing better. Mapping will also allow me to check my data against demographic indicators in the census to see if there are patterns that account for ratings. 
 
 NOTE on the analysis: If you have an idea of what I should check accessibility against on a neighborhood level to test correlation, please let me know!
+
+__
+
+Analysis 3: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Colocation.ipynb
+
+According to this analysis, schools that colocate do not have different ratings. Not all schools that colocate are fully accessible, so we should expect to see some variation in ratings if schools are on different floors in the same building. I don't know why we don't see any.
+
+In this database, I've identified 887 schools that colocate from a dataset of about 1200 schools.
+
+NOTE: Again, I'm working with 1200 schools total from the dataset above!
+
+__
+
+Data source 2: I got 'Age by Sex by Ambulatory Disability' estimates from Factfinder. (Source: https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml, table: B18105 "Age by Sex by Ambulatory Disability", 2017 5-year estimates) My data is at the level of census tracts at the moment.
+
+__
+
+Analysis 4: 
+I combined male and female estimates by census tract, wrangled the data for a join and finally joined everything in a QJIS analysis. (ambulatory-disability)
+
+Major caveat: The maps don't represent the margins of error that accompany estimates of males and females between 5-17 with ambulatory disabilities. Use with caution — the idea with this map is to guide reporting and see where students might be concentrated, as opposed to presenting a perfect picture of where students are. 
+
+
