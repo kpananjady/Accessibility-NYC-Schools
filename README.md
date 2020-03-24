@@ -54,7 +54,7 @@ NOTE on this data: I have some questions about margins of error and estimates in
 
 __
 
-Analysis 4: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/NYC%20Ambulatory%20Data.ipynb
+Analysis 4: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/NYC%20Ambulatory%20Data.ipynb; result here: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-24%20at%201.26.01%20PM.png
 
 I combined male and female estimates by census tract, wrangled the data for a join and finally joined everything in a QJIS analysis. There are a total of around 9,000 such kids in New York City. 
 
