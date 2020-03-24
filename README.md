@@ -36,7 +36,7 @@ NOTE on the data: Use CRS projection W84:4326 for the coordinate system when map
 
 __ __ __
 
-Analysis 2: MAPPING THE TREND
+Analysis 2: MAPPING THE TREND BY NEIGHBORHOOD AND DISTRICT
 
 https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/ratings-city-analysis.qgz; see results in Screen Shot 2020-03-13 at 9.47.22 PM.png at https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-13%20at%209.47.22%20PM.png
 
