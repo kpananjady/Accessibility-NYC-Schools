@@ -8,9 +8,9 @@ Roughly one in four schools has a rating of 10 across the city, signifying highl
 
 I also have some questions about the quality of this data — why are there only 1200 schools? Why do no two collocated schools have different ratings? 
 
-This Github repository tries to assess the need for accessibility in the city — around 9,000 students between 5-17 have ambulatory disabilities in the city, as per 2017 American Community Survey data. 
+Finally, this Github repository tries to assess the need for accessibility in the city — around 9,000 students between 5-17 have ambulatory disabilities in the city, as per 2017 American Community Survey data. 
 
-__
+__ __ __
 
 Data source 1: New York Department of Education
 https://nycdoe.sharepoint.com/sites/BAP/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FBAP%2FShared%20Documents%2FBuilding%20Accessibility%20Profile%20List&p=true&originalPath=aHR0cHM6Ly9ueWNkb2Uuc2hhcmVwb2ludC5jb20vOmY6L3MvQkFQL0VwdzItQUtwNUs1THZXQzZYTFQ3Tk80Qlo2NW1CYmljTHlOUXYzdUltN09uTVE_cnRpbWU9MlBpc0hKX0gxMGc
@@ -18,7 +18,7 @@ https://nycdoe.sharepoint.com/sites/BAP/Shared%20Documents/Forms/AllItems.aspx?i
 
 NOTE on the data: The above data was last updated in February 2020. It contains 1200 or so entries — which is less than the total number of public schools in NYC. I wonder why that is; but this is an important caveat for any finding here.
 
-__
+__ __ __
 
 Analysis 1: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Accessibility%20in%20NYC%20schools.ipynb
 
@@ -26,13 +26,13 @@ I open up the file, use regex to extract the rating, geolocate the schools with 
 
 NOTE on the analysis: At the moment, this analysis treats schools rated 0 (not accessible) and schools rated 0+ (at least one entrance and a small area ae accessible) both as 0. (See the data dictionary for the difference: https://www.schools.nyc.gov/school-life/school-environment/building-accessibility) In this dataset, 0 and 0+ doesn't actually matter as there aren't any 0 ratings within. 
 
-__
+__ __ __
 
 Data source 2: New York City shapefiles from NYC Open Data https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas-NTA-/cpf4-rkhq 
 
 NOTE on the data: Use CRS projection W84:4326 for the coordinate system when mapping!
 
-__
+__ __ __
 
 Analysis 2: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/ratings-city-analysis.qgz; see results in Screen Shot 2020-03-13 at 9.47.22 PM.png at https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-13%20at%209.47.22%20PM.png
 
@@ -50,13 +50,13 @@ In this database, I've identified 887 schools that colocate from a dataset of ab
 
 NOTE: Again, I'm working with 1200 schools total from the dataset above!
 
-__
+__ __ __
 
-Data source 2: I got 'Age by Sex by Ambulatory Disability' estimates from Factfinder. (Source: https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml, table: B18105 "Age by Sex by Ambulatory Disability", 2017 5-year estimates) My data is at the level of census tracts at the moment.
+Data source 3: I got 'Age by Sex by Ambulatory Disability' estimates from Factfinder. (Source: https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml, table: B18105 "Age by Sex by Ambulatory Disability", 2017 5-year estimates) My data is at the level of census tracts at the moment.
 
 NOTE on this data: I have some questions about margins of error and estimates in this analysis!
 
-__
+__ __ __
 
 Analysis 4: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/NYC%20Ambulatory%20Data.ipynb; result here: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/Screen%20Shot%202020-03-24%20at%201.26.01%20PM.png
 
