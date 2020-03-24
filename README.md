@@ -56,7 +56,7 @@ __
 
 Analysis 4: https://github.com/kpananjady/Accessibility-NYC-Schools/blob/master/NYC%20Ambulatory%20Data.ipynb
 
-I combined male and female estimates by census tract, wrangled the data for a join and finally joined everything in a QJIS analysis. (ambulatory-disability)
+I combined male and female estimates by census tract, wrangled the data for a join and finally joined everything in a QJIS analysis. There are a total of around 9,000 such kids in New York City. 
 
 Major caveat: The maps don't represent the margins of error that accompany estimates of males and females between 5-17 with ambulatory disabilities. Use with caution — the idea with this map is to guide reporting and see where students might be concentrated, as opposed to presenting a perfect picture of where students are. 
 
