@@ -2,7 +2,7 @@
 
 This is an exploratory analysis of school accessibility data in New York City. For the second part of this analysis, look at https://github.com/kpananjady/Age_DOE_buildings.
 
-So far, I see a story here on Queens' superior accessibility. There is also a suggestion that NYC has made some quick improvements on the accessibility front. 
+So far, I see a story here on Queens' superior accessibility. 
 
 Roughly one in four schools has a rating of 10 across the city, signifying highly accessible spaces. In Queens, over a third of schools have a rating of 10. Queens also has a higher median rating than other boroughs! What is driving this trend?
 
